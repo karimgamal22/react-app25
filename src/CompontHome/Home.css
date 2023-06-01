@@ -1,0 +1,136 @@
+header{
+    position: relative;
+    margin-top: 0px;
+    background-color: #fff;
+    background-image: url(../image/bg1.c53c8971.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+header .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+header .row h5 {
+    background-image: url(../image/h5img.png);
+    font-size: 21px;
+    font-weight: 700;
+    display: inline-block;
+    padding: 5px 15px;
+    background-position: 50%;
+    background-repeat: repeat;
+    color: var(--btn-color);
+}
+header h2 {
+    color: var(--main-color);
+    font-size: 45px;
+    margin: 10px 0px;
+    font-weight: bold;
+    letter-spacing: 1px ;
+    word-spacing:2px;
+}
+header .doctorimg1 {
+    max-width: 100%;
+    width: 430px;
+    height: auto;
+    animation: move 2.5s infinite alternate;
+    
+}
+
+@keyframes move {
+    0%{
+        transform: translateY(-20px);
+
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+header .takebtn {
+    background-color: var(--orange-color) !important;
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-size: 18px;
+    position: relative;
+    z-index: 10;
+    
+}
+
+header .takebtn a {
+    color:white;
+}
+.smoallimg{
+    position: relative;
+}
+.smoallimg .header1  {
+    max-width: 10%;
+    position: absolute;
+    bottom:40px;
+    left: -25px;
+    animation: move 3s infinite alternate;
+}
+.smoallimg .header2  {
+    max-width: 10%;
+    position: absolute;
+    top: -464px;
+    left: 50%;
+    animation: move 3s infinite alternate;
+}
+.smoallimg .header3  {
+    max-width: 8%;
+    position: absolute;
+    bottom:395px;
+    left: 15%;
+}
+.smoallimg .header4 {
+    max-width: 8%;
+    position: absolute;
+    bottom:8%;
+    left: 41%;
+}
+
+
+@media only screen and (max-width: 991px) {
+    header .row h5 {
+        font-size: 18px;
+        margin: 0 0 10px;
+        padding: 3px 10px;
+    }
+
+    header h2 {
+        color: var(--main-color);
+        font-size: 28px;
+        margin: 0px 0px;
+        font-weight: 700;
+        letter-spacing: .5px ;
+        word-spacing:0px;
+    }
+
+    header .takebtn {
+        background-color: var(--orange-color) !important;
+        width: 150px;
+        height: 50px;
+        border: none;
+        border-radius: 8px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-transform: capitalize;
+        font-size: 18px;
+        position: relative;
+        z-index: 10;
+        
+    }
+    .smoallimg{
+        display: none;
+    }
+
+}

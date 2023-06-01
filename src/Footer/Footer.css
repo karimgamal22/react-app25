@@ -1,0 +1,74 @@
+footer .imgfooter {
+    margin-bottom: 15px ;
+}
+footer p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+footer .footer-contact {
+    display: flex;
+    align-items: center;
+}
+.footer-contact .footer-icons {
+    margin-right: 30px;
+    color: #fff;
+    position: relative;
+    font-size: 24px;
+    background-color: #f17732;
+    border-radius: 30px 30px 0 30px;
+    width: 58px;
+    height: 58px;
+    line-height: 58px;
+    text-align: center; 
+    animation: move 2.5s infinite alternate;
+}
+
+
+.footer-contact .footer-text h6 {
+color:#f17732 ;
+}
+.footer-contact .footer-text h4 {
+    color: #1f2278;
+}
+
+footer ul {
+    margin-top: 20px;
+}
+footer ul li {
+    margin-top: 8px;
+
+}
+footer ul li a {
+    color: gray;
+    font-size: 18px;
+    font-weight: 500;
+}
+footer h2 {
+    color:#1c208d ;
+    font-weight: bold;
+}
+footer form input {
+    margin-bottom: 15px;
+    border-radius: 8px;
+  
+}
+footer form button {
+background-color: #f17732 !important;
+outline: none !important;
+border: none !important;
+border-radius: 8px !important;
+
+}
+footer .social {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: azure;
+    transition: .5s ease ;
+    
+}
+footer .social li:hover {
+    transform: rotateY(180deg);
+}
