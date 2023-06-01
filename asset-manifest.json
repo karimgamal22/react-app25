@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-app25/static/css/main.a720706f.css",
+    "main.js": "/react-app25/static/js/main.f5ca61f7.js",
+    "static/media/doctor1.png": "/react-app25/static/media/doctor1.7c2bc96d67d3eba1d64a.png",
+    "static/media/bg1.c53c8971.jpg": "/react-app25/static/media/bg1.c53c8971.c53c8971d16c9a1033ae.jpg",
+    "index.html": "/react-app25/index.html",
+    "main.a720706f.css.map": "/react-app25/static/css/main.a720706f.css.map",
+    "main.f5ca61f7.js.map": "/react-app25/static/js/main.f5ca61f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a720706f.css",
+    "static/js/main.f5ca61f7.js"
+  ]
+}
